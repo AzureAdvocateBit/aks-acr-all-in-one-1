@@ -27,8 +27,6 @@ The `k8sversion` variable can be determined based on your location and the curre
 
 Additionally, you can run the following from `az cli` :
 
-Additionally, you can run the following from `az cli` :
-
 ```
 az aks get-versions --location $LOCATION --output table
 ```
