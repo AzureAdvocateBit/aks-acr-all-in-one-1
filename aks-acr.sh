@@ -58,9 +58,9 @@ ACR_ID=$(az acr show --name $ACRNAME --resource-group $GROUPNAME --query "id" --
 # Create role assignment
 az role assignment create --assignee $CLIENT_ID --role acrpull --scope $ACR_ID
 
-$echo "your cluster is now ready to use, check the portal for more details"
+echo "your cluster is now ready to use, check the portal for more details"
 
-kubectl describe nodes
+kubectl get nodes
 cat temp
 echo "Keep these credentials for future use"
 
