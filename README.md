@@ -1,16 +1,16 @@
 # Azure Kubernetes Service and Azure Container Service Creation Script
 
-This is a simple bash script that allows you to provide a few variables to create both an [Azure Kuberntes Service Cluster](https://docs.microsoft.com/azure/aks/?WT.mc_id=code-github-jagord) and an [Azure Container Registry](https://docs.microsoft.com/azure/container-registry/?WT.mc_id=code-github-jagord) in a few minutes.
+This is a simple bash script that allows you to provide a few variables to create both an [Azure Kuberntes Service Cluster](https://docs.microsoft.com/azure/aks/?WT.mc_id=devops-0000-jagord) and an [Azure Container Registry](https://docs.microsoft.com/azure/container-registry/?WT.mc_id=devops-0000-jagord) in a few minutes.
 
 ## Installation and Use
 
 _REQUIRED_
 
-Install [Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest&WT.mc_id=code-github-jagord)
+Install [Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest&WT.mc_id=devops-0000-jagord)
 
 or
 
-Use [Azure Cloud Shell](https://docs.microsoft.com/azure/cloud-shell/overview?WT.mc_id=code-github-jagord) to execute the bash script.
+Use [Azure Cloud Shell](https://docs.microsoft.com/azure/cloud-shell/overview?WT.mc_id=devops-0000-jagord) to execute the bash script.
 
 # Installation
 
@@ -23,7 +23,7 @@ export AKSNAME = " "
 export ACRNAME = " " # must be globally unique
 export k8sversion = " "
 ```
-The `k8sversion` variable can be determined based on your location and the current versions available.  Check the docs on ["Supported Kubernetes versions in Azure Kubernetes Service"](https://docs.microsoft.com/azure/aks/supported-kubernetes-versions?WT.mc_id=code-github-jagord)
+The `k8sversion` variable can be determined based on your location and the current versions available.  Check the docs on ["Supported Kubernetes versions in Azure Kubernetes Service"](https://docs.microsoft.com/azure/aks/supported-kubernetes-versions?WT.mc_id=devops-0000-jagord)
 
 Additionally, you can run the following from `az cli` :
 
